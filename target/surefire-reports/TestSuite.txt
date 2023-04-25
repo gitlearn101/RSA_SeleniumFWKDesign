@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 33.934 s <<< FAILURE! - in TestSuite
+LoginErrorValidation(home.Tests.ErrorValidationTest)  Time elapsed: 0.445 s  <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect  password.]
+	at home.Tests.ErrorValidationTest.LoginErrorValidation(ErrorValidationTest.java:27)
+
