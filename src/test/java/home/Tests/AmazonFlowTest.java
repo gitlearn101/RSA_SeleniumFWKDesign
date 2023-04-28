@@ -25,7 +25,7 @@ public class AmazonFlowTest {
 	
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	
-	driver.get("https://rahulshettyacademy.com/client/");
+	driver.get("https://www.amazon.in/");
 	
 	}
 	
