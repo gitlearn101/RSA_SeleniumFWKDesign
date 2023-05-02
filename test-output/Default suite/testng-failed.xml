@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="home.Tests.ErrorValidation">
+      <class name="home.Tests.AmazonFlowTest">
         <methods>
-          <include name="launchApplication"/>
-          <include name="LoginErrorValidation"/>
-          <include name="tearDown"/>
+          <include name="amazonRun"/>
         </methods>
-      </class> <!-- home.Tests.ErrorValidation -->
+      </class> <!-- home.Tests.AmazonFlowTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
