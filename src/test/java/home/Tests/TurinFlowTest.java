@@ -54,6 +54,8 @@ public class TurinFlowTest {
 	// click on 'skip' at the footer
 	driver.findElement(By.cssSelector(".pretest-skip-resume-link")).click();
 	
+	//Updated at 1611 hrs
+	
 	}
 	
 }
