@@ -2,15 +2,13 @@ package home.Tests;
 
 import java.time.Duration;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AmazonFlowTest {
+public class GSearchTest {
 
 	
 	@Test
@@ -27,10 +25,7 @@ public class AmazonFlowTest {
 	
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	
-	driver.get("https://www.google.com/");
-	
-	driver.findElement(By.id("APjFqb")).sendKeys("Turing");
-	driver.findElement(By.id("APjFqb")).sendKeys(Keys.ENTER);
+	driver.get("https://www.amazon.in/");
 	
 	}
 	
