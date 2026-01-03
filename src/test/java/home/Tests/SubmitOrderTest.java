@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 
-import home.PageObjects.*;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -14,6 +13,13 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import home.PageObjects.CartPage;
+import home.PageObjects.CheckoutPage;
+import home.PageObjects.ConfirmationPage;
+import home.PageObjects.LandingPage;
+import home.PageObjects.OrderPage;
+import home.PageObjects.ProductCatalogue;
+import home.PageObjects.RegistrationPage;
 import home.TestComponent.BaseTest;
 
 public class SubmitOrderTest extends BaseTest {
